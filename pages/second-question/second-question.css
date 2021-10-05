@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto&display=swap');
+
+body {
+  color: #FFFFFF99;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 16px;
+}
+
+button {
+  background: linear-gradient(90deg, rgba(246, 200, 102, 0.9) -6.2%, rgba(254, 173, 53, 0.9) 100%);
+  border: none;
+  color: #fff;
+  width: 179px;
+  height: 40px;
+  margin-bottom: 0.52rem;
+  margin-top: 0.7rem;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.eye {
+  position: absolute;
+  top: 10%;
+  right: -9%;
+  opacity: .2;
+}
+
+.sphere {
+  position: absolute;
+  opacity: .2;
+  top: 86%;
+  left: -3.5%;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: #202024;
+  width: 320px;
+  height: 568px; 
+  /* Убрать */
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  height: 124px;
+}
+
+.header p {
+  font-size: 14px;
+  line-height: 20px;
+  width: 235px;
+  height: 80px;
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  margin: auto auto;
+  padding: 1rem;
+}
+
+.title p {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #F6C866;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-buttons form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-buttons p {
+  font-size: 12px;
+  letter-spacing: .1em;
+  margin-top: 2.5rem;
+  margin-bottom: 2.9rem;
+}

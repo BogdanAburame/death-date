@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto&display=swap');
+
+body {
+  color: #FFFFFF99;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0;
+  line-height: 25px;
+}
+
+button {
+  background: linear-gradient(90deg, rgba(246, 200, 102, 0.9) -6.2%, rgba(254, 173, 53, 0.9) 100%);
+  border: none;
+  color: #fff;
+  width: 179px;
+  height: 40px;
+  margin-bottom: 0.52rem;
+  margin-top: 0.7rem;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
+}
+
+.wrapper {
+  background-color: #202024;
+  width: 320px;
+  /* height: 568px;  */
+  /* Убрать */
+  margin: 0 auto;
+}
+
+.header-p {
+  margin: 0;
+  font-size: 12px;
+  padding: .7rem;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: .1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);;
+}
+
+.content-title {
+  font-weight: 300;
+  margin-top: .5rem;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: .1em;
+}
+
+.content-main--images {
+  position: relative;
+}
+
+.content-main--images img{
+  opacity: .2;
+  position: absolute; 
+  left: 15%;
+}
+
+img.i8 {
+  opacity: 1;
+  position: absolute;
+  border-radius: 50%;
+  top: 45px;
+  left: 28.55555%;
+  z-index: 1000;
+}
+
+.blink-image img {
+  position: absolute;
+  top: 0%;
+  width: 320px;
+  height: 402px;
+  z-index: 0;
+}
+
+.lower-case {
+  color: #F6C866;
+  margin-top: 16rem; 
+  margin-bottom: 0; 
+  text-align: center;
+}
+
+.upper-case {
+  color: #F6C866;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+}
+
+.buttons-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-action form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-action .status {
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+
+.hands-info {
+  position: relative;
+  width: 255px;
+  height: 252px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.hands-info img {
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  top: -17%;
+  left: 35%;
+}
+
+.hands-info p {
+  color: #fff;
+  margin-top: 3.5rem;
+  text-align: center;
+  font-size: 16px;
+  padding: 1rem;
+  padding-top: 0;
+  line-height: 25px;
+}
+
+.hands-info strong{
+  font-size: 20px;
+  color: #F6C866;
+}
+
+.image7-info {
+  position: relative;
+  overflow: hidden;
+  height: 331px;
+}
+
+.image7-info img {
+  position: absolute;
+  width: 500px;
+  height: 331px;
+  opacity: 0.2;
+  z-index: 0;
+  transform: translate(-17%, 0%); 
+}
+
+.image7-info p {
+  color: #fff;
+  text-align: center;
+  margin-top: 6.2rem;
+}
+
+.image7-info strong {
+  color: #F6C866;
+}
+
+.first-question {
+  width: 320px;
+}
+
+.first-question .title {
+  color: #F6C866;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3.34rem;
+}
+
+.buttons-action .status {
+  margin-bottom: 0;
+  letter-spacing: .1em;
+}
+
+.container-info-runes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-rune {
+  margin-top: 3.5rem;
+  margin-bottom: .9rem;
+}
+
+.runes-info {
+  font-family: 'Bad Script', cursive;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: .6rem;
+}
+
+.footer {
+  margin-top: 3.65rem;
+}
+.footer p {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: .1rem;
+  font-size: 7px;
+  line-height: 9px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
